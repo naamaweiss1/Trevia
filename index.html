@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trevia Game</title>
+	<link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+   <div id="container">
+   <p id="question"></p>
+	   <div id="answers" class="btn-grid">
+		   <button class="btn"id="answer1" onclick="checkAnswer(this)"/>
+		   <button class="btn"id="answer2" onclick="checkAnswer(this)"//>
+		   <button class="btn"id="answer3" onclick="checkAnswer(this)"//>
+		   <button class="btn"id="answer4" onclick="checkAnswer(this)"//>
+	   </div>
+   </div>
+    <div id="summary">
+	   <p>your score is: </P>
+	   <p id="score"></p>
+   </div>
+   <div class="start-grid">
+	   <div class="start">
+			<button id="start-btn" class="btn">Start Quiz</button>
+	   </div>
+   </div>
+    <span id="timer"></span>
+   <div class="controls">
+		<button id="next-btn">Next</button>
+   	    <button id="statr-again-btn">Try again</button>
+   </div>
+</body>
+</html>
